@@ -1,0 +1,147 @@
+
+.backendBrand{
+  font-family: "Salut", serif;
+  font-size: 3em;
+  padding: .2em 1.5em 0 0.8em;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.backend-app-wrap{
+	height: 100%;
+}
+.content-wrap{
+	background: #eaeaea;
+	min-height: 100%;
+	margin-left: 250px;
+}
+.logo-contain{
+	background-color:#aac5de;
+	height: 72px;
+}
+
+i.icons, i.icon {
+	font-size: 1.5em;
+}
+
+.sidebar-menu {
+	position: relative;
+	width: 250px;
+	background: #fff;
+	float: left;
+	height:100%;
+}
+
+.side-menu{
+	padding-top:  30px;
+}
+.toggle-wrap{
+	text-align: center;
+	padding-top: 15px;
+}
+
+.ui.list {
+	font-family: 'quicksand', sans-serif;
+	padding: 20px 0 20px 30px;
+	font-size: 18px;
+	color: #173870;
+}
+
+.ui.list>.item{
+	cursor: pointer;
+	padding: 10px 0;
+}
+.ui.list>.item:hover{
+	color: #aac5de; 
+}
+.ui.list>.item.active{
+	color: #aac5de; 
+}
+
+.ui.list>.item>.icon+.content {
+	padding: 0 0 0 15px;
+}
+
+
+/* User Top Nav Area */
+
+.top-bar{
+	height: 72px;
+	background-color: #173870;
+	padding: 6px 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.heading{
+	margin-top: 12px;
+	color: #eaeaea;
+}
+.search{
+	text-align: center;
+	width: 50%;
+	margin-top: -22px;
+}
+.ui.icon.input{
+	width: 70%;
+	height: 65px;
+}
+.ui.input{
+	font-size: 23px;
+}
+
+.ui.icon.input input{
+	background-color: rgba(255, 255,255, 0.3);
+}
+
+.ui.input input:selection{
+	background-color: rgba(255, 255,255, 0.9);
+}
+
+
+.ui.avatar.image{
+	width: 3em;
+	height: 3em;
+}
+.small-brand{
+	font-family: "quicksand";
+	color: #eaeaea;
+	font-size: 20px;
+}
+.ui.top.left.pointing.dropdown>.menu {
+	top: 50px;
+	left: 13px;
+	width: 200px;
+}
+
+.ui.dropdown .menu>.item {
+	font-size: 18px;
+	color: #173870;
+}
+
+.ui.animated.button {
+	background: transparent;
+	margin-top: -3px;
+	color:#eaeaea;
+	font-size: 20px;
+}
+
+/* Main Layout Segment area */
+
+.ui.segment{
+	background: transparent;
+	border-radius: 0;
+	border: none;
+	box-shadow: none;
+	
+}
+
+.pageWrap{
+	margin: 0 auto;
+	background-color: #fff;
+	width: 98%
+
+}
+

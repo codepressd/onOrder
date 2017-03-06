@@ -1,0 +1,107 @@
+@font-face{
+  font-family: "Salut";
+  src: url('../../../../Styles/fonts/salut-font.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: "Quicksand";
+  src: url('../../../../Styles/fonts/quicksand.otf') format('opentype');
+}
+
+
+.header {
+  background-size: cover;
+  border-bottom: 1px solid #ccc;
+
+}
+ .ui.secondary.pointing.menu{
+  background-color: rgba(255,255,255, .9);
+   border-bottom: 2px solid rgba(234,234,234, .9);
+} 
+.ui.secondary.pointing.menu  li>a{
+  color: #173870 ;
+}
+
+.ui .menu{
+  font-size: 1.5rem;
+  font-family: "Salut", serif;
+}
+.myBrand{
+
+  font-family: "Salut", serif;
+  font-size: 3em;
+  padding: .2em 1.5em 0 0.8em;
+  color: #173870;
+}
+.io{
+  font-size: .8em;
+}
+.tag-line{
+  font-family: "Quicksand", cursive;
+  color: #aac5de;
+  font-size: 1.8em;
+}
+
+.nav-brand{
+  cursor: pointer;
+  list-style: none;
+  margin: 15px 0 0 -30px;
+}
+.nav-brand li{
+  padding-bottom: 18px;
+}
+
+.cart{
+    color: #173870;
+}
+.cart.label{
+  background-color: none;
+}
+
+/* Backend Top Right Nav */
+
+.backend-logout{
+  position: absolute;
+  right: 0;
+  padding: 2%;
+  cursor: pointer;
+}
+.cart-button{
+  margin-top: 5%;
+}
+/* mobile-menu button */
+  .ui .button{
+    font-size: 1.5rem;
+    margin: 5px ;
+  }
+/* Media Queries */
+
+@media(max-width: 768px){
+  .nav-brand{
+    list-style: none;
+    margin: 18px 0 0 -30px;
+  }
+  .myBrand{
+    padding: .5em;
+  }
+  .tag-line, .walrus-nav{
+    display: none;
+  }
+}
+@media(max-width: 460px){
+  .myBrand{
+    font-size: 2em;
+    padding: .8em;
+  }
+}
+
+@media (max-width: 385px){
+  .walrus-nav{
+    display: block;
+    height: 60px;
+    cursor: pointer;
+  }
+  .myBrand{
+    display: none;
+  }
+}

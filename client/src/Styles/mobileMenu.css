@@ -1,0 +1,8 @@
+.ui.thin.left.sidebar, .ui.thin.right.sidebar{
+	background: #aac5de;
+	width: 200px;
+}
+
+.ui.inverted.menu .item, .ui.inverted.menu .item>a:not(.ui) {
+	padding: .5em 0;
+}

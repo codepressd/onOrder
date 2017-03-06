@@ -1,0 +1,31 @@
+.fullPage{
+	padding-top: 10%;
+
+}
+ .ui .container{
+	font-family: "quicksand", sans-serif;
+	color: #173870;
+}
+
+.ui.dropdown .menu>.item {
+	font-family: "quicksand", sans-serif;
+}
+
+h2.ui.header{
+	font-family: "Salut", serif;
+	color: #173870;
+}
+
+.ui .button{
+	color: #173870;
+	background: #aac5de;
+}
+
+.ui .button:hover{
+	color: #173870;
+	background: #f9f6e1;
+}
+h2, h3{
+	font-family: "Salut", serif;
+	color: #173870;
+}

@@ -1,0 +1,216 @@
+.intro{
+    background-image: url('../../../../public/dinnertable.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    overflow: auto;
+    position: relative;	
+}
+.intro-content{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 50%;
+	height: 40%;
+	margin: 0 5% 5% 0;
+	background-color: rgba(255,255,255, 0.7);
+}
+
+.headline{
+	font-family: "Salut", serif;
+	font-size: 2em;
+	color: #173870;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 4%;
+}
+.description{
+	font-family: "Quicksand", serif;
+	font-size: 1.8em;
+	color: #173870;
+	text-align: center;
+	
+}
+.get-started{
+	text-align: center;
+}
+
+/* 3-points section */
+
+.grid-points{
+	width: 90%;
+	margin: 0 auto;
+}
+.no-pad{
+	padding: 0 ;
+}
+
+.light-blue{
+	background-color: #aac5de;
+}
+
+/* Bar section */
+.bar-shot{
+    background-image: url('../../../../public/bar.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    overflow: auto;
+    position: relative;	
+}
+
+.bar-shot:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to right, #fff, transparent);
+}
+
+.bar-content{
+	width: 45%;
+	padding: 4% 0 0 2%;
+	position: relative;
+}
+
+.plus-pad{
+	padding: 4% 0 0 ;
+}
+
+/* Built By Section */
+
+.white-headline{
+	font-family: "Salut", serif;
+	font-size: 2.5em;
+	color: #fff;
+	text-align: center;
+	padding-top: 4%;
+}
+.white-description{
+	font-family: "Salut", serif;
+	font-size: 1.5em;
+	color: #fff;
+	text-align: center;
+}
+
+/* Multiple Logins */
+
+.multi-login{
+    background-image: url('../../../../public/toasting.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    overflow: auto;
+    position: relative;	
+}
+
+/* Order anywhere section */
+
+.order-anywhere {
+	background-color: #aac5de;
+}
+.anywhere-content{
+	padding: 4% 0;
+}
+.no-line{
+	line-height: 0;
+	padding: 0;
+}
+
+/* Start Now */
+
+.start-now{
+    background-image: url('../../../../public/strawberries.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    overflow: auto;
+    position: relative;	
+}
+
+.start-content{
+	position: relative;
+	padding: 2% 0 0;
+	right: 0;
+	bottom: 0;
+	width: 400px;
+	border-radius: 50%;
+	height: 400px;
+	margin: 15px auto;
+	background-color: rgba(255,255,255, 0.7);
+	border: 1px solid #aac5de; 
+}
+.light-weight{
+	font-weight: 400;
+}
+.click-me{
+	cursor: pointer;
+	font-weight: 600;
+}
+.click-me:hover{
+	-webkit-text-stroke: 1px #aac5de;
+	
+}
+
+/* Media Queries */
+
+@media (max-width: 888px){
+	.intro-content{
+		position: relative;
+		margin: 15px auto;
+		width: 60%;
+	}
+}
+
+@media (max-width: 555px){
+	.intro-content{
+		width: 90%;
+	}
+
+	.no-line{
+		line-height: 1em;
+	}
+
+	.start-content{
+		width: 300px;
+		height: 300px;
+	}
+
+	.headline{
+		font-size: 1.5em;
+	}
+	.description{
+		font-size: 1.3em;
+	}
+	.bar-content{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.bar-content > p{
+		color: #fff  ;
+	}
+	
+	.bar-shot:before {
+		background-image:  linear-gradient(to bottom, #aac5de, transparent);
+	}
+}
+
+.topCover{
+	width: 100%;
+	height: 30em;
+	background-color: #fff;
+}
+.grid{
+	margin: 0 !important;
+	padding: 2rem 0 !important;
+}
+
+.center{
+	text-align: center;
+}

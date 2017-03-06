@@ -1,0 +1,25 @@
+.footer{
+  text-align: center;
+  min-height: 1em;
+  padding: 1em 0;
+  background-size: cover;
+  background-color:#aac5de;
+  width: 100%;
+   z-index: 99;
+   position: fixed;
+   bottom: 0;
+}
+
+.footer p{
+  font-family: 'Delius', cursive;
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #173870;
+}
+
+
+.footer a{
+  color: #FFF;
+  text-decoration: none;
+  font-weight: 700;
+}

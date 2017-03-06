@@ -1,0 +1,159 @@
+/* Backend Styles */
+.pageWrap{
+	width: 100%;
+	padding-bottom: 70px;
+}
+.pageWrap:after{
+	clear: both;
+	content: ' ';
+	display: block;
+	padding-bottom: 70px;
+}
+.imageSize{
+	display: block;
+	max-width: 200px;
+	width: auto;
+	height: auto;
+}
+.dropZone{
+	width: 100%;
+}
+.navWrap{
+	width: 20%;
+	float: left;
+	margin: 65px 0 0;
+}
+.contentWrap{
+	width: 80%;
+	float: left;
+	margin: 10px 0 0;
+	padding: 10px;
+}
+.fromDash{
+	padding: 0 0 70px 0;
+}
+/*Supplier Signup*/
+.group{
+	padding: 1%;
+}
+.form{
+	padding: 20px 0  70px 0;
+}
+.center{
+	text-align: center;
+}
+
+/* Dashboard */
+
+.mainChartContain {
+	width: 98%;
+	background-color: #fff;
+	margin: 0 auto;
+
+}
+.info-chart-contain {
+	width: 100%;
+	background-color: #fff;
+	
+}
+.info-chart-contain > h3 {
+	padding: 20px 0;
+}
+
+.mainChartContain{
+	padding: 20px;
+}
+
+.dashValue{
+	font-family: 'Salut', serif;
+	font-size: 30px;
+	padding: 0 0 40px;
+}
+
+/* Profile page  */
+
+.ui.table td {
+	color: #173870;
+	padding: 1.4em;
+	font-family: 'quicksand', sans-serif;
+}
+
+.ui.table{
+	border: 0;
+}
+
+h1.ui.header{
+	padding: 20px;
+	color: #173870;
+	font-weight: 600;
+}
+
+/* Form change password */
+
+.formWrap{
+	width: 95%;
+	margin: 0 auto;
+}
+.ui[class*="left icon"].input>input {
+	padding-left: 3.5em !important;
+}
+
+/* proflie update */
+
+.ui.form input[type=text]{
+	font-size: .7em;
+}
+.ui.form input[type=password]{
+	font-size: .7em;
+}
+
+/* Products Area Supplier */
+
+.add{
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 20px 80px;
+}
+
+@media only screen and (min-width: 600px){
+	.ui.container {
+		width: 95%;
+	}
+}
+.image-drop{
+	width: 100%;
+	height: 200px;
+	border-width: 2px;
+	border-color: rgb(102, 102, 102);
+	border-style: dashed;
+	border-radius: 5px;
+}
+.drop-text{
+	position: absolute;
+	top: 40%;
+	left: 10%;
+
+}
+
+.message{
+	text-align: center;
+	font-size: 24px;
+	padding-bottom: 20px;
+}
+
+/* Your Team Page */
+
+.ui.list>.item .description {
+	font-size: 1em;
+	text-align: left;
+	
+}
+
+.teamMessage{
+	text-align: center;
+	font-size: 25px;
+	padding: 5px;
+}
+
+
